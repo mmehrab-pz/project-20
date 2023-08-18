@@ -1,0 +1,896 @@
+//  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (max-width:576px) {
+
+    // -------------------------------------------------header------------------------------------------
+    // ------------------------header navbar----------------------------
+    #header-nav {
+        padding: 0 2%;
+    }
+
+    #head-nav-logo {
+        justify-content: start;
+    }
+
+    // ------------------------header content----------------------------
+    #header-content {
+        .shape {
+            bottom: -65%;
+            left: 0%;
+        }
+
+    }
+
+    #header-content-title {
+        padding-left: 0%;
+        align-items: center;
+
+        >* {
+            text-align: center;
+        }
+
+        >h1 {
+            font-size: 60px;
+            transform: scale(.8);
+        }
+
+
+        >p {
+            color: white;
+            font-family: 'ReadexPro-Light';
+            font-size: 16px;
+            margin: 50px 0;
+            width: 80%;
+        }
+    }
+
+    // -------------------------------------------------main------------------------------------------
+    // ------------------------about----------------------------
+    #about {
+        padding: 50px 0 50px 0;
+
+        >.shape {
+            left: -40%;
+            top: 0%;
+        }
+    }
+
+    #about-title {
+        padding-right: 0%;
+        padding-left: 0%;
+        align-items: center;
+
+        >* {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        >h3 {
+            font-size: 40px;
+
+        }
+    }
+
+    // ------------------------speciality----------------------------
+    #speciality {
+        width: 100%;
+        padding-bottom: 100px;
+        position: relative;
+
+        >.shape {
+            right: -60%;
+            left: auto;
+        }
+    }
+
+    #speciality-title {
+        padding: 50px 5% 30px 5%;
+
+        >h3 {
+            font-size: 35px;
+        }
+
+        >p {
+            padding: 0 0px;
+        }
+    }
+
+    #speciality-cards {
+        width: 100%;
+
+        >section {
+            margin-top: 120px;
+        }
+    }
+
+    // ------------------------join----------------------------
+    #join {
+        >.shape {
+            left: -60%;
+            top: -45%;
+        }
+    }
+
+    #join-title {
+        padding: 50px 0% 30px 0%;
+
+        >h3 {
+            font-size: 35px;
+        }
+    }
+
+    #join-content-cards {
+        padding-left: 0%;
+        padding: 0 5%;
+    }
+
+    // ------------------------gallery----------------------------
+    #gallery {
+
+        >.shape {
+            top: -20%;
+            right: -60%;
+            left: auto;
+        }
+    }
+
+    #gallery-title {
+
+        >h3 {
+            font-size: 35px;
+        }
+    }
+
+    #gallery-cards {
+        width: 100%;
+    }
+
+    // ------------------------team----------------------------
+
+    #team-title {
+        padding: 100px 0% 30px 0%;
+
+        >h3 {
+            font-size: 35px;
+            color: white;
+            font-family: 'conthrax-bold';
+        }
+    }
+
+    #team-cards {
+        width: 100%;
+
+        >section {
+            margin-bottom: 30px;
+        }
+    }
+
+    // ------------------------what people say----------------------------
+
+    #people-title {
+        >h3 {
+            font-size: 35px;
+        }
+    }
+
+    #people-text {
+        width: 95%;
+    }
+
+    // ------------------------faqs----------------------------
+    #faq {
+        >.shape {
+            left: auto;
+            right: -60%;
+        }
+    }
+
+    #faq-title {
+
+        >h3 {
+            font-size: 30px;
+
+        }
+
+        >ul {
+            transform: scale(.8);
+
+            >li {
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    #faq-accordion {
+        width: 100%;
+    }
+
+    // ------------------------portfoilo----------------------------
+    #portfolio {
+
+        >div {
+            width: 95%;
+
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:576px) {
+
+    // -------------------------------------------------header------------------------------------------
+    // ------------------------header navbar----------------------------
+    #header-nav {
+        padding: 0 2%;
+    }
+
+    #head-nav-logo {
+        justify-content: start;
+    }
+
+    // -------------------------------------------------main------------------------------------------
+    // ------------------------speciality----------------------------
+    #speciality {
+        width: 100%;
+        padding-bottom: 100px;
+        position: relative;
+
+        >.shape {
+            right: -60%;
+            left: auto;
+        }
+    }
+
+    #speciality-title {
+        padding: 50px 5% 30px 5%;
+
+        >h3 {
+            font-size: 35px;
+        }
+
+        >p {
+            padding: 0 0px;
+        }
+    }
+
+    #speciality-cards {
+        width: 100%;
+
+        >section {
+            margin-top: 120px;
+        }
+    }
+
+    // ------------------------join----------------------------
+    #join {
+        >.shape {
+            left: -60%;
+            top: -45%;
+        }
+    }
+
+    #join-title {
+        padding: 50px 0% 30px 0%;
+
+        >h3 {
+            font-size: 35px;
+        }
+    }
+
+    #join-content-cards {
+        padding-left: 0%;
+        padding: 0 5%;
+    }
+
+    // ------------------------gallery----------------------------
+    #gallery-cards {
+        width: 100%;
+    }
+
+    // ------------------------team----------------------------
+
+    #team-title {
+        padding: 100px 0% 30px 0%;
+
+        >h3 {
+            font-size: 35px;
+            color: white;
+            font-family: 'conthrax-bold';
+        }
+    }
+
+    #team-cards {
+        width: 100%;
+
+        >section {
+            margin-bottom: 30px;
+        }
+    }
+
+    // ------------------------what people say----------------------------
+
+    #people-title {
+        >h3 {
+            font-size: 35px;
+        }
+    }
+
+    #people-text {
+        width: 95%;
+    }
+
+    // ------------------------faqs----------------------------
+    #faq {
+        >.shape {
+            left: auto;
+            right: -60%;
+        }
+    }
+
+    #faq-title {
+
+        >h3 {
+            font-size: 30px;
+
+        }
+
+        >ul {
+            transform: scale(.8);
+
+            >li {
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    #faq-accordion {
+        width: 100%;
+    }
+
+    // ------------------------portfoilo----------------------------
+    #portfolio {
+
+        >div {
+            width: 95%;
+
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:768px) {
+
+    // -------------------------------------------------main------------------------------------------
+    // ------------------------speciality----------------------------
+    #speciality {
+        width: 100%;
+        padding-bottom: 100px;
+        position: relative;
+
+        >.shape {
+            right: -60%;
+            left: auto;
+        }
+    }
+
+    #speciality-title {
+        padding: 50px 0% 30px 0%;
+
+        >h3 {
+            font-size: 35px;
+        }
+
+        >p {
+            padding: 0 0px;
+        }
+    }
+
+    #speciality-cards {
+        width: 100%;
+
+        >section {
+            margin-top: 120px;
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:992px) {
+
+    // -------------------------------------------------header------------------------------------------
+    // ------------------------header navbar----------------------------
+    #header-nav {
+        padding: 0 0%;
+    }
+
+    #head-nav-logo {
+        justify-content: center;
+    }
+
+    // -------------------------------------------------main------------------------------------------
+    // ------------------------brand----------------------------
+
+    #brand-logo {
+        width: 100%;
+    }
+
+    // ------------------------faqs----------------------------
+    #faq {
+        >.shape {
+            left: auto;
+            right: -60%;
+        }
+    }
+
+    #faq-title {
+
+        >h3 {
+            font-size: 35px;
+
+        }
+
+        >ul {
+            transform: scale(.9);
+
+            >li {
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    #faq-accordion {
+        width: 100%;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1200px) {
+
+    // -------------------------------------------------header------------------------------------------
+    // ------------------------header content----------------------------
+
+    #header-content-img {
+
+        transform: scale(.7);
+    }
+
+    // -------------------------------------------------main------------------------------------------
+    // ------------------------about----------------------------
+    #about {
+        >.shape {
+            left: -55%;
+            top: 45%;
+        }
+    }
+
+    #about-img {
+        padding-left: 10%;
+
+        >figure {
+            transform: scale(.8);
+        }
+    }
+
+    #about-title {
+        padding-right: 3%;
+    }
+
+    // ------------------------speciality----------------------------
+    #speciality {
+        width: 100%;
+        padding-bottom: 100px;
+        position: relative;
+
+        >.shape {
+            right: -60%;
+            left: auto;
+        }
+    }
+
+    #speciality-title {
+        padding: 50px 20% 30px 20%;
+
+        >h3 {
+            font-size: 45px;
+        }
+
+        >p {
+            padding: 0 100px;
+        }
+    }
+
+    #speciality-cards {
+        width: 100%;
+
+        >section {
+            margin-top: 0px;
+        }
+    }
+
+    // ------------------------join----------------------------
+    #join {
+        >.shape {
+            left: -60%;
+            top: -45%;
+        }
+    }
+
+    #join-title {
+        padding: 50px 25% 30px 25%;
+
+        >h3 {
+            font-size: 45px;
+        }
+    }
+
+    #join-content-cards {
+        padding-left: 0%;
+        padding: 0 5%;
+    }
+
+    #join-content-img {
+        padding-left: 0%;
+
+        >figure {
+            >img {
+                transform: translate(.8);
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1400px) {
+    // -------------------------------------------------header------------------------------------------
+    // ------------------------header content----------------------------
+
+    #header-content-img {
+
+        transform: scale(.85);
+    }
+
+    // -------------------------------------------------main------------------------------------------
+    // ------------------------about----------------------------
+    #about {
+        >.shape {
+            left: -55%;
+            top: 45%;
+        }
+    }
+
+    #about-img {
+        padding-left: 10%;
+
+        >figure {
+            transform: scale(.85);
+        }
+    }
+
+    #about-title {
+        padding-right: 3%;
+    }
+
+    // ------------------------speciality----------------------------
+    #speciality {
+        width: 100%;
+        padding-bottom: 100px;
+        position: relative;
+
+        >.shape {
+            right: -60%;
+            left: auto;
+        }
+    }
+
+    #speciality-title {
+        padding: 50px 25% 30px 25%;
+
+        >h3 {
+            font-size: 50px;
+        }
+
+        >p {
+            padding: 0 100px;
+        }
+    }
+
+    #speciality-cards {
+        width: 80%;
+
+        >section {
+            margin-top: 0px;
+        }
+    }
+
+    // ------------------------join----------------------------
+    #join {
+        >.shape {
+            left: -60%;
+            top: -45%;
+        }
+    }
+
+    #join-title {
+        padding: 50px 30% 30px 30%;
+
+        >h3 {
+            font-size: 45px;
+        }
+    }
+
+    #join-content-cards {
+        padding-left: 0%;
+        padding: 0 5%;
+    }
+
+    #join-content-img {
+        padding-left: 0%;
+
+        >figure {
+            >img {
+                transform: translate(.9);
+            }
+        }
+    }
+
+    // ------------------------team----------------------------
+
+    #team-title {
+        padding: 100px 31% 30px 31%;
+
+        >h3 {
+            font-size: 45px;
+            color: white;
+            font-family: 'conthrax-bold';
+        }
+    }
+
+    #team-cards {
+        width: 80%;
+
+        >section {
+            margin-bottom: 0px;
+        }
+    }
+
+    // -------------------------------------------------main------------------------------------------
+    // ------------------------brand----------------------------
+
+    #brand-logo {
+        width: 80%;
+    }
+
+    // ------------------------what people say----------------------------
+
+    #people-title {
+        >h3 {
+            font-size: 45px;
+        }
+    }
+
+    #people-text {
+        width: 80%;
+    }
+
+    // ------------------------faqs----------------------------
+    #faq {
+        >.shape {
+            left: auto;
+            right: -60%;
+        }
+    }
+
+    #faq-title {
+
+        >h3 {
+            font-size: 45px;
+
+        }
+
+        >ul {
+            transform: scale(1);
+
+            >li {
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    #faq-accordion {
+        width: 80%;
+    }
+
+    // ------------------------portfoilo----------------------------
+    #portfolio {
+
+        >div {
+            width: 80%;
+
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1600px) {
+
+    // -------------------------------------------------header------------------------------------------
+    // ------------------------header navbar----------------------------
+    #header-nav {
+        padding: 0 5%;
+    }
+
+    #head-nav-logo {
+        justify-content: center;
+    }
+
+    // ------------------------header content----------------------------
+
+    #header-content-img {
+
+        transform: scale(1);
+    }
+
+    // -------------------------------------------------main------------------------------------------
+    // ------------------------about----------------------------
+    #about {
+        >.shape {
+            left: -55%;
+            top: 45%;
+        }
+    }
+
+    #about-img {
+        padding-left: 15%;
+
+        >figure {
+            transform: scale(1);
+        }
+    }
+
+    #about-title {
+        padding-right: 18%;
+    }
+
+    // ------------------------speciality----------------------------
+    #speciality {
+        width: 100%;
+        padding-bottom: 100px;
+        position: relative;
+
+        >.shape {
+            right: -60%;
+            left: auto;
+        }
+    }
+
+    #speciality-title {
+        padding: 50px 31% 30px 31%;
+
+        >h3 {
+            font-size: 50px;
+        }
+
+        >p {
+            padding: 0 100px;
+        }
+    }
+
+    #speciality-cards {
+        width: 60%;
+
+        >section {
+            margin-top: 0px;
+        }
+    }
+
+    // ------------------------join----------------------------
+    #join {
+        >.shape {
+            left: -60%;
+            top: -45%;
+        }
+    }
+
+    #join-title {
+        padding: 50px 31% 30px 31%;
+
+        >h3 {
+            font-size: 50px;
+        }
+    }
+
+    #join-content-cards {
+        padding-left: 0%;
+        padding: 0 0% 0 21%;
+    }
+
+    #join-content-img {
+        padding-left: 2%;
+
+        >figure {
+            >img {
+                transform: translate(1);
+            }
+        }
+    }
+
+    // ------------------------gallery----------------------------
+    #gallery-cards {
+        width: 70%;
+    }
+
+    // ------------------------team----------------------------
+
+    #team-title {
+        padding: 100px 31% 30px 31%;
+
+        >h3 {
+            font-size: 50px;
+            color: white;
+            font-family: 'conthrax-bold';
+        }
+    }
+
+    #team-cards {
+        width: 70%;
+
+        >section {
+            margin-bottom: 0px;
+        }
+    }
+
+    // -------------------------------------------------main------------------------------------------
+    // ------------------------brand----------------------------
+
+    #brand-logo {
+        width: 70%;
+    }
+
+    // ------------------------what people say----------------------------
+
+    #people-title {
+        >h3 {
+            font-size: 50px;
+        }
+    }
+
+    #people-text {
+        width: 55%;
+    }
+
+    // ------------------------faqs----------------------------
+    #faq {
+        >.shape {
+            left: auto;
+            right: -60%;
+        }
+    }
+
+    #faq-title {
+
+        >h3 {
+            font-size: 50px;
+
+        }
+
+        >ul {
+            transform: scale(1);
+
+            >li {
+                padding: 10px 15px;
+            }
+        }
+    }
+
+    #faq-accordion {
+        width: 70%;
+    }
+
+    // ------------------------portfoilo----------------------------
+    #portfolio {
+
+        >div {
+            width: 70%;
+
+        }
+    }
+}

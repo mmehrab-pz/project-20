@@ -1,0 +1,557 @@
+@media screen and (max-width: 576px) {
+  #header-nav {
+    padding: 0 2%;
+  }
+  #head-nav-logo {
+    justify-content: start;
+  }
+  #header-content .shape {
+    bottom: -65%;
+    left: 0%;
+  }
+  #header-content-title {
+    padding-left: 0%;
+    align-items: center;
+  }
+  #header-content-title > * {
+    text-align: center;
+  }
+  #header-content-title > h1 {
+    font-size: 60px;
+    transform: scale(0.8);
+  }
+  #header-content-title > p {
+    color: white;
+    font-family: "ReadexPro-Light";
+    font-size: 16px;
+    margin: 50px 0;
+    width: 80%;
+  }
+  #about {
+    padding: 50px 0 50px 0;
+  }
+  #about > .shape {
+    left: -40%;
+    top: 0%;
+  }
+  #about-title {
+    padding-right: 0%;
+    padding-left: 0%;
+    align-items: center;
+  }
+  #about-title > * {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #about-title > h3 {
+    font-size: 40px;
+  }
+  #speciality {
+    width: 100%;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  #speciality > .shape {
+    right: -60%;
+    left: auto;
+  }
+  #speciality-title {
+    padding: 50px 5% 30px 5%;
+  }
+  #speciality-title > h3 {
+    font-size: 35px;
+  }
+  #speciality-title > p {
+    padding: 0 0px;
+  }
+  #speciality-cards {
+    width: 100%;
+  }
+  #speciality-cards > section {
+    margin-top: 120px;
+  }
+  #join > .shape {
+    left: -60%;
+    top: -45%;
+  }
+  #join-title {
+    padding: 50px 0% 30px 0%;
+  }
+  #join-title > h3 {
+    font-size: 35px;
+  }
+  #join-content-cards {
+    padding-left: 0%;
+    padding: 0 5%;
+  }
+  #gallery > .shape {
+    top: -20%;
+    right: -60%;
+    left: auto;
+  }
+  #gallery-title > h3 {
+    font-size: 35px;
+  }
+  #gallery-cards {
+    width: 100%;
+  }
+  #team-title {
+    padding: 100px 0% 30px 0%;
+  }
+  #team-title > h3 {
+    font-size: 35px;
+    color: white;
+    font-family: "conthrax-bold";
+  }
+  #team-cards {
+    width: 100%;
+  }
+  #team-cards > section {
+    margin-bottom: 30px;
+  }
+  #people-title > h3 {
+    font-size: 35px;
+  }
+  #people-text {
+    width: 95%;
+  }
+  #faq > .shape {
+    left: auto;
+    right: -60%;
+  }
+  #faq-title > h3 {
+    font-size: 30px;
+  }
+  #faq-title > ul {
+    transform: scale(0.8);
+  }
+  #faq-title > ul > li {
+    padding: 10px 20px;
+  }
+  #faq-accordion {
+    width: 100%;
+  }
+  #portfolio > div {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 576px) {
+  #header-nav {
+    padding: 0 2%;
+  }
+  #head-nav-logo {
+    justify-content: start;
+  }
+  #speciality {
+    width: 100%;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  #speciality > .shape {
+    right: -60%;
+    left: auto;
+  }
+  #speciality-title {
+    padding: 50px 5% 30px 5%;
+  }
+  #speciality-title > h3 {
+    font-size: 35px;
+  }
+  #speciality-title > p {
+    padding: 0 0px;
+  }
+  #speciality-cards {
+    width: 100%;
+  }
+  #speciality-cards > section {
+    margin-top: 120px;
+  }
+  #join > .shape {
+    left: -60%;
+    top: -45%;
+  }
+  #join-title {
+    padding: 50px 0% 30px 0%;
+  }
+  #join-title > h3 {
+    font-size: 35px;
+  }
+  #join-content-cards {
+    padding-left: 0%;
+    padding: 0 5%;
+  }
+  #gallery-cards {
+    width: 100%;
+  }
+  #team-title {
+    padding: 100px 0% 30px 0%;
+  }
+  #team-title > h3 {
+    font-size: 35px;
+    color: white;
+    font-family: "conthrax-bold";
+  }
+  #team-cards {
+    width: 100%;
+  }
+  #team-cards > section {
+    margin-bottom: 30px;
+  }
+  #people-title > h3 {
+    font-size: 35px;
+  }
+  #people-text {
+    width: 95%;
+  }
+  #faq > .shape {
+    left: auto;
+    right: -60%;
+  }
+  #faq-title > h3 {
+    font-size: 30px;
+  }
+  #faq-title > ul {
+    transform: scale(0.8);
+  }
+  #faq-title > ul > li {
+    padding: 10px 20px;
+  }
+  #faq-accordion {
+    width: 100%;
+  }
+  #portfolio > div {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #speciality {
+    width: 100%;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  #speciality > .shape {
+    right: -60%;
+    left: auto;
+  }
+  #speciality-title {
+    padding: 50px 0% 30px 0%;
+  }
+  #speciality-title > h3 {
+    font-size: 35px;
+  }
+  #speciality-title > p {
+    padding: 0 0px;
+  }
+  #speciality-cards {
+    width: 100%;
+  }
+  #speciality-cards > section {
+    margin-top: 120px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #header-nav {
+    padding: 0 0%;
+  }
+  #head-nav-logo {
+    justify-content: center;
+  }
+  #brand-logo {
+    width: 100%;
+  }
+  #faq > .shape {
+    left: auto;
+    right: -60%;
+  }
+  #faq-title > h3 {
+    font-size: 35px;
+  }
+  #faq-title > ul {
+    transform: scale(0.9);
+  }
+  #faq-title > ul > li {
+    padding: 10px 20px;
+  }
+  #faq-accordion {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #header-content-img {
+    transform: scale(0.7);
+  }
+  #about > .shape {
+    left: -55%;
+    top: 45%;
+  }
+  #about-img {
+    padding-left: 10%;
+  }
+  #about-img > figure {
+    transform: scale(0.8);
+  }
+  #about-title {
+    padding-right: 3%;
+  }
+  #speciality {
+    width: 100%;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  #speciality > .shape {
+    right: -60%;
+    left: auto;
+  }
+  #speciality-title {
+    padding: 50px 20% 30px 20%;
+  }
+  #speciality-title > h3 {
+    font-size: 45px;
+  }
+  #speciality-title > p {
+    padding: 0 100px;
+  }
+  #speciality-cards {
+    width: 100%;
+  }
+  #speciality-cards > section {
+    margin-top: 0px;
+  }
+  #join > .shape {
+    left: -60%;
+    top: -45%;
+  }
+  #join-title {
+    padding: 50px 25% 30px 25%;
+  }
+  #join-title > h3 {
+    font-size: 45px;
+  }
+  #join-content-cards {
+    padding-left: 0%;
+    padding: 0 5%;
+  }
+  #join-content-img {
+    padding-left: 0%;
+  }
+  #join-content-img > figure > img {
+    transform: translate(0.8);
+  }
+}
+@media screen and (min-width: 1400px) {
+  #header-content-img {
+    transform: scale(0.85);
+  }
+  #about > .shape {
+    left: -55%;
+    top: 45%;
+  }
+  #about-img {
+    padding-left: 10%;
+  }
+  #about-img > figure {
+    transform: scale(0.85);
+  }
+  #about-title {
+    padding-right: 3%;
+  }
+  #speciality {
+    width: 100%;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  #speciality > .shape {
+    right: -60%;
+    left: auto;
+  }
+  #speciality-title {
+    padding: 50px 25% 30px 25%;
+  }
+  #speciality-title > h3 {
+    font-size: 50px;
+  }
+  #speciality-title > p {
+    padding: 0 100px;
+  }
+  #speciality-cards {
+    width: 80%;
+  }
+  #speciality-cards > section {
+    margin-top: 0px;
+  }
+  #join > .shape {
+    left: -60%;
+    top: -45%;
+  }
+  #join-title {
+    padding: 50px 30% 30px 30%;
+  }
+  #join-title > h3 {
+    font-size: 45px;
+  }
+  #join-content-cards {
+    padding-left: 0%;
+    padding: 0 5%;
+  }
+  #join-content-img {
+    padding-left: 0%;
+  }
+  #join-content-img > figure > img {
+    transform: translate(0.9);
+  }
+  #team-title {
+    padding: 100px 31% 30px 31%;
+  }
+  #team-title > h3 {
+    font-size: 45px;
+    color: white;
+    font-family: "conthrax-bold";
+  }
+  #team-cards {
+    width: 80%;
+  }
+  #team-cards > section {
+    margin-bottom: 0px;
+  }
+  #brand-logo {
+    width: 80%;
+  }
+  #people-title > h3 {
+    font-size: 45px;
+  }
+  #people-text {
+    width: 80%;
+  }
+  #faq > .shape {
+    left: auto;
+    right: -60%;
+  }
+  #faq-title > h3 {
+    font-size: 45px;
+  }
+  #faq-title > ul {
+    transform: scale(1);
+  }
+  #faq-title > ul > li {
+    padding: 10px 20px;
+  }
+  #faq-accordion {
+    width: 80%;
+  }
+  #portfolio > div {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #header-nav {
+    padding: 0 5%;
+  }
+  #head-nav-logo {
+    justify-content: center;
+  }
+  #header-content-img {
+    transform: scale(1);
+  }
+  #about > .shape {
+    left: -55%;
+    top: 45%;
+  }
+  #about-img {
+    padding-left: 15%;
+  }
+  #about-img > figure {
+    transform: scale(1);
+  }
+  #about-title {
+    padding-right: 18%;
+  }
+  #speciality {
+    width: 100%;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  #speciality > .shape {
+    right: -60%;
+    left: auto;
+  }
+  #speciality-title {
+    padding: 50px 31% 30px 31%;
+  }
+  #speciality-title > h3 {
+    font-size: 50px;
+  }
+  #speciality-title > p {
+    padding: 0 100px;
+  }
+  #speciality-cards {
+    width: 60%;
+  }
+  #speciality-cards > section {
+    margin-top: 0px;
+  }
+  #join > .shape {
+    left: -60%;
+    top: -45%;
+  }
+  #join-title {
+    padding: 50px 31% 30px 31%;
+  }
+  #join-title > h3 {
+    font-size: 50px;
+  }
+  #join-content-cards {
+    padding-left: 0%;
+    padding: 0 0% 0 21%;
+  }
+  #join-content-img {
+    padding-left: 2%;
+  }
+  #join-content-img > figure > img {
+    transform: translate(1);
+  }
+  #gallery-cards {
+    width: 70%;
+  }
+  #team-title {
+    padding: 100px 31% 30px 31%;
+  }
+  #team-title > h3 {
+    font-size: 50px;
+    color: white;
+    font-family: "conthrax-bold";
+  }
+  #team-cards {
+    width: 70%;
+  }
+  #team-cards > section {
+    margin-bottom: 0px;
+  }
+  #brand-logo {
+    width: 70%;
+  }
+  #people-title > h3 {
+    font-size: 50px;
+  }
+  #people-text {
+    width: 55%;
+  }
+  #faq > .shape {
+    left: auto;
+    right: -60%;
+  }
+  #faq-title > h3 {
+    font-size: 50px;
+  }
+  #faq-title > ul {
+    transform: scale(1);
+  }
+  #faq-title > ul > li {
+    padding: 10px 15px;
+  }
+  #faq-accordion {
+    width: 70%;
+  }
+  #portfolio > div {
+    width: 70%;
+  }
+}/*# sourceMappingURL=local.css.map */

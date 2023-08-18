@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'conthrax-bold';
+    src: url(../font/Conthrax/conthrax-sb.ttf);
+}
+
+@font-face {
+    font-family: 'ReadexPro-Light';
+    src: url(../font/Readex/ReadexPro-Light.ttf);
+}
+
+/* ------------------------------------------------------------------------------------ */
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-fluid,
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+.btn-1 {
+    height: 50px;
+    width: 140px;
+    border: 1px solid #2C2E49;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: linear-gradient(89.96deg, hsla(0, 0%, 100%, .05) .03%, hsla(0, 0%, 100%, .008) 49.67%, hsla(0, 0%, 100%, .05) 99.96%);
+
+    >span {
+        background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+        border-radius: 10px;
+        width: 93%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'conthrax-bold';
+        font-size: 15px;
+        text-transform: capitalize;
+        position: relative;
+        overflow: hidden;
+
+        &::after {
+            content: '';
+            background: linear-gradient(90deg, hsla(0, 0%, 100%, .13), hsla(0, 0%, 100%, .13) 77%, hsla(0, 0%, 100%, .5) 92%, hsla(0, 0%, 100%, 0));
+            height: 200%;
+            left: -210%;
+            opacity: 0;
+            position: absolute;
+            top: -50%;
+            transition: all .7s ease 0s;
+            width: 200%;
+        }
+    }
+
+    &:hover {
+        >span {
+            &::after {
+                left: -30%;
+                opacity: 1;
+                top: -20%;
+                transition-duration: .7s, .7s, .15s;
+                transition-property: left, top, opacity;
+                transition-timing-function: linear;
+
+            }
+        }
+    }
+}
+
+.shape {
+    background: radial-gradient(34.98% 34.98% at 50% 50%, #725bda 0, rgba(6, 19, 45, 0) 100%);
+    content: '';
+    height: 2000px;
+    width: 2000px;
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+    display: flex;
+    top: -70%;
+}
